@@ -4,6 +4,7 @@ import os
 import PyPDF2 as pdf
 import pyperclip
 import json
+import clipboard
 
 def prompt(input_text, jd):
 
@@ -50,5 +51,5 @@ if submit:
         # st.subheader("Response:")
         with st.expander("Show Response"):
             st.code(response, language='json')
-        st.button("Copy", pyperclip.copy(response))
+        st.button("Copy", clipboard.copy(response))
        
