@@ -18,7 +18,7 @@ def prompt(input_text, jd):
     description:{jd}
 
     I want the response in one single string having the structure
-    {{"JD Match":"%","MissingKeywords:[]","Profile Summary":"","2 Job Duties/responsibility from all MissingKeywords":""}}
+    {{"JD Match":"%","MissingKeywords:[]","Profile Summary":"","2 job duties/responsibilities that align with the missing keywords:":""}}
     """
 
     return input_prompt
